@@ -1,0 +1,73 @@
+<div>
+	<h2>Schema Generator</h2>
+	<p> This form allows you to configure schema used for your project.</p>
+	<div> 
+	<table>
+	    <tr>
+			<td>Select Project:</td>
+			<td>
+				<select>
+					<option value="-1">--SELECT ONE--</option>
+					<option vlue="1">lss [Last Shelter Survival]</option>
+					<option vlue="1">pt [Project Tools]</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Select already generated schema:</td>
+			<td>
+				<select>
+					<option value="-1">--SELECT ONE--</option>
+					<option vlue="1">SCHEMA 1</option>
+					<option vlue="1">SCHEMA 2</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+	 </div>
+	 <p>
+	 Or,
+	 </p>
+	 <div>
+	 <p>Create a new One</p>
+	 <table>
+		<tr>
+			<td> Enter Schema name: </td>
+			<td> <input type="text"/></td>
+		</tr>
+		<tr>
+			<td> Select database type: </td>
+			<td>
+				<select>
+					<option value="-1">--SELECT ONE--</option>
+					<option vlue="1">ORACLE</option>
+					<option vlue="2">MySQL</option>
+					<option vlue="3">MSSQL</option>
+					<option vlue="4">DB2</option>
+					<option vlue="5">MARIA DB</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+		<td> Enter database Name: </td>
+		<td> <input type="text"/></td>
+		</tr>
+		<tr>
+		<td> Enter database user Name: </td>
+		<td> <input type="text"/></td>
+		</tr>
+		<tr>
+		<td> Enter database user Password: </td>
+		<td> <input type="password"/></td>
+		</tr>
+		<tr>
+		<td> Enter table Name: </td>
+		<td> <input type="text"/></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><input type="submit" value="Validate Entries"></td>
+			<td style="text-align: center;"><input type="submit" value="Generate Schema"></td>
+		</tr>
+	</table>
+	</div>
+</div>

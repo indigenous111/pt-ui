@@ -4,5 +4,10 @@ yarn global add @angular/cli
 
 ng new pt-ui
 
+yarn install
+
 ng config --global packageManager=yarn
 
+yarn add ngx-bootstrap --save
+
+yarn upgrade
