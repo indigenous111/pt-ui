@@ -1,0 +1,8 @@
+npm install -g yarn
+
+yarn global add @angular/cli
+
+ng new pt-ui
+
+ng config --global packageManager=yarn
+
