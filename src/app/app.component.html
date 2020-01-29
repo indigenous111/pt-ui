@@ -1,4 +1,4 @@
-<div style="color: yellow; background-color: darkblue; height: 100%;">
+<div style="color: blue; height: 100%;">
 	<table width="100%">
 		<tr>
 			<td>
@@ -11,20 +11,26 @@
 			<td>
 				<div id="main" style="height: 70%;">
 					<div id="left" style="text-align: left; float: left; width: 30%;">
-						<ul style="list-style-type: none;">
-							<li><a [routerLink]="['/ec/backend/hero/schema/gen']"
-								style="text-decoration: none; color: yellow;">Schema Generator</a>
-						</ul>
-						<ul style="list-style-type: none;">
-							<li><a [routerLink]="['ec/backend/hero/entity/gen']"
-								style="text-decoration: none; color: yellow;">Entity Creator</a>
-						</ul>
+						<div>
+							<h3> Project </h3>
+							<ul style="list-style-type: none;">
+								<li><a [routerLink]="['/ec/backend/project/manage']"
+								style="text-decoration: none;">Manage Project</a>
+							</ul>
+						</div>
+					  <div>
+							<h3> Entity Creator </h3>
+							<ul style="list-style-type: none;">
+								<li><a [routerLink]="['/ec/backend/schema/gen']"
+								style="text-decoration: none;">Schema Generator</a>
+								<li><a [routerLink]="['ec/backend/entity/gen']"
+									style="text-decoration: none;">Entity Creator</a>
+								</ul>
+						</div>
 					</div>
 					<div id="right" style="text-align: left; float: right; width: 70%;">
-						<p>Please choose items from left menu to use the APP.</p>
-						<div>
-							<router-outlet></router-outlet>
-						</div>
+								<p>Please choose items from left menu to use the APP.</p>
+								<router-outlet></router-outlet>
 					</div>
 				</div>
 			</td>
